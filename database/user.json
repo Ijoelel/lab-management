@@ -1,0 +1,39 @@
+{
+   "data": [
+      {
+         "nama": "sadfasdfsa",
+         "email": "fasdfsdf",
+         "password": "13123",
+         "role": "Admin",
+         "id": 614976650489275722
+      },
+      {
+         "nama": "123",
+         "email": "432",
+         "password": "111",
+         "role": "Admin",
+         "id": 157777551146225258
+      },
+      {
+         "nama": "asdfasdfas",
+         "email": "afrizal@gmail.com",
+         "password": "adfsdfsadf",
+         "role": "Admin",
+         "id": 331715474212438175
+      },
+      {
+         "nama": "afrizal",
+         "email": "fianarnatha@gmail.com",
+         "password": "asdfdsf",
+         "role": "Admin",
+         "id": 428659450251684893
+      },
+      {
+         "nama": "test34567",
+         "email": "asdfghj",
+         "password": "asdfgh",
+         "role": "Admin",
+         "id": 662407368784561712
+      }
+   ]
+}

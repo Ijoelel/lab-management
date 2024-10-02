@@ -1,0 +1,102 @@
+/* Main Window */
+QMainWindow {
+    background-color: #f0f4f8; /* Light gray-blue background */
+}
+
+/* Sidebar styling */
+QWidget#sidebar {
+    background-color: #2d3e50; /* Dark blue-gray for the sidebar */
+    padding: 10px;
+}
+
+QLabel {
+    color: #808080; /* White color for sidebar labels */
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+QVBoxLayout
+
+QComboBox {
+    background-color: #ffffff; /* White combo box */
+    color: #333333; /* Dark text for readability */
+    border: 1px solid #d1d9e6; /* Light border */
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+QComboBox::drop-down {
+    border: none; /* Remove the default drop-down border */
+}
+
+QComboBox::down-arrow {
+    image: url(down-arrow.png); /* Optional: Custom arrow icon, replace with your own if desired */
+    width: 10px;
+    height: 10px;
+}
+
+/* Main Content Pages */
+QWidget#mainContent {
+    background-color: #ffffff; /* White background for main content */
+    border: 1px solid #d1d9e6; /* Light gray border */
+    border-radius: 8px;
+    padding: 20px;
+    margin-left: 10px; /* Small gap between sidebar and main content */
+}
+
+QLabel#pageTitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2d3e50; /* Dark blue-gray for main content titles */
+    margin-bottom: 15px;
+}
+
+/* Buttons (if you add any) */
+QPushButton {
+    background-color: #009688; /* Teal color for buttons */
+    color: #ffffff; /* White text */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin-top: 10px;
+}
+
+QPushButton:hover {
+    background-color: #00796b; /* Darker teal on hover */
+}
+
+QPushButton:pressed {
+    background-color: #005f56; /* Even darker teal when pressed */
+}
+
+/* Scrollbar Styling (if needed) */
+QScrollBar:vertical {
+    border: none;
+    background: #e0e7ef;
+    width: 8px;
+    margin: 15px 0 15px 0;
+}
+
+QScrollBar::handle:vertical {
+    background: #99aabb;
+    min-height: 20px;
+    border-radius: 4px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #88a0c0;
+}
+
+QScrollBar::handle:vertical:pressed {
+    background: #7788a0;
+}
+QLineEdit {
+    background-color: #ffffff; /* White combo box */
+    color: #333333; /* Dark text for readability */
+    border: 1px solid #d1d9e6; /* Light border */
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 15px;
+}

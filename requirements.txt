@@ -1,0 +1,8 @@
+beautifultable==1.1.0
+filelock==3.16.1
+PySide6==6.7.3
+PySide6_Addons==6.7.3
+PySide6_Essentials==6.7.3
+pysondb==1.6.7
+shiboken6==6.7.3
+wcwidth==0.2.13
